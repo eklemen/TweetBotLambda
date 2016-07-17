@@ -1,0 +1,37 @@
+{
+  "name": "Twitter Bot Lambda",
+  "version": "1.0.0",
+  "description": "Twitter bot using Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "bot",
+    "template"
+  ],
+  "author": "Jon Rutishauser",
+  "license": "ISC",
+  "repository": "https://github.com/jrutishauser/twitterLambda",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-zip": "^3.2.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5",
+    "node-aws-lambda": "^0.1.8",
+    "rewire": "^2.5.1",
+    "run-sequence": "^1.2.1"
+  },
+  "dependencies": {
+    "botfiles": "file:///Users/imnothardcore/Projects/blank-lambda-bot/botfiles",
+    "twit": "^2.2.4",
+    "underscore": "^1.8.3",
+    "wordfilter": "^0.2.6"
+  }
+}
