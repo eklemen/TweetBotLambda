@@ -1,5 +1,5 @@
 {
-  "name": "Twitter Bot Lambda",
+  "name": "blank-lambda-bot",
   "version": "1.0.0",
   "description": "Twitter bot using Lambda",
   "main": "index.js",
