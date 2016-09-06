@@ -5,6 +5,7 @@ var install = require('gulp-install');
 var runSequence = require('run-sequence');
 var awsLambda = require("node-aws-lambda");
 var jshint = require('gulp-jshint');
+var Promise = require("bluebird");
  
 gulp.task('clean', function() {
   return del(['./dist', './dist.zip']);
